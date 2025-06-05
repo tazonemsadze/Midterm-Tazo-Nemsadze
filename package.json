@@ -1,0 +1,23 @@
+{
+  "name": "midterm-tazo-nemsadze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tazonemsadze/Midterm-Tazo-Nemsadze.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tazonemsadze/Midterm-Tazo-Nemsadze/issues"
+  },
+  "homepage": "https://github.com/tazonemsadze/Midterm-Tazo-Nemsadze#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "tailwindcss": "^4.1.8"
+  }
+}
