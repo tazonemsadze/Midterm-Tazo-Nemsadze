@@ -74,3 +74,39 @@
     @apply hover:after:scale-100 hover:after:duration-300 hover:after:ease-in-out;
   }
 }
+
+@layer typography {
+  .text-hFluid {
+    @apply text-[var(--text-hFluid)] font-poppins font-extrabold;
+  }
+  .text-fsPrimary {
+    @apply text-[var(--text-fsPrimary)] font-poppins;
+  }
+  .text-fsSecondary {
+    @apply text-[var(--text-fsSecondary)] font-poppins;
+  }
+  .text-fsSmall {
+    @apply text-[var(--text-fsSmall)] font-poppins;
+  }
+}
+
+@layer form {
+  .form__group {
+    @apply flex flex-col gap-[13px];
+  }
+  .form__groups {
+    @apply flex flex-col gap-[10px];
+  }
+}
+
+@layer card {
+}
+
+@layer footer {
+  .footer__wrappers {
+    @apply flex  items-center justify-between;
+  }
+  .footer__list {
+    @apply flex flex-col gap-[16px] md:flex-row lg:gap-[48px];
+  }
+}
