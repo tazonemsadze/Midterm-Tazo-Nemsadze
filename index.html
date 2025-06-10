@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="src/css/output.css" />
     <title>Midterm</title>
   </head>
-  <body class="bg-gray-200">
+  <body class="bg-[#F8F8F8CC]">
     <header>
       <div class="container mx-auto px-[20px] py-[38px] md: py-[42px]">
         <div class="header__wrapper flex justify-between items-center">
@@ -255,7 +255,226 @@
     </header>
 
     <main>
-      <section class="hero__section"></section>
+      <section class="hero__section">
+        <div
+          class="hero__section--container md:container md:mx-auto md:px-[20px] md:py-[38px] md: py-[42px]"
+        >
+          <div
+            class="hero__section--wrapper grid gap-[20px] md:grid-cols-4 md:[grid-template-areas:'formGroup_imgCon_imgCon_imgCon']"
+          >
+            <form
+              action=""
+              class="order-1 grid justify-start gap-[41px] p-[32px_20px] rounded-[24px] shadow-[0px_4px_25px_0px_#C2C2C24F] capitalize md:order-[0] md:max-w-[395px] bg-white md:[grid-area:formGroup]"
+            >
+              <!-- location -->
+              <div class="form__groups--wrapper">
+                <label for="location">location</label>
+                <select name="location" id="location">
+                  <option value="kenya">kenya</option>
+                  <option value="algeria">algeria</option>
+                  <option value="cabo-verde">cabo verde</option>
+                </select>
+              </div>
+
+              <!-- property -->
+              <div class="form__groups--wrapper">
+                <h3>property</h3>
+
+                <div class="form__groups">
+                  <!-- houses-apartments-rent -->
+                  <div class="form__group">
+                    <input
+                      type="checkbox"
+                      id="houses-apartments-rent"
+                      value="houses-apartments-rent"
+                    />
+                    <label for="houses-apartments-rent"
+                      >Houses & Apartments for Rent | <span>9548</span>
+                    </label>
+                  </div>
+
+                  <!-- houses-apartments-sale -->
+                  <div class="form__group">
+                    <input
+                      type="checkbox"
+                      id="houses-apartments-sale"
+                      value="houses-apartments-sale"
+                    />
+                    <label for="houses-apartments-sale"
+                      >Houses & Apartments for sale | <span>9548</span>
+                    </label>
+                  </div>
+
+                  <!-- land-plots-rent -->
+                  <div class="form__group">
+                    <input
+                      type="checkbox"
+                      id="land-plots-rent"
+                      value="land-plots-rent"
+                    />
+                    <label for="land-plots-rent"
+                      >Land & Plots for Rent | <span>9548</span>
+                    </label>
+                  </div>
+
+                  <!-- land-plots-sale -->
+                  <div class="form__group">
+                    <input
+                      type="checkbox"
+                      id="land-plots-sale"
+                      value="land-plots-sale"
+                    />
+                    <label for="land-plots-sale"
+                      >Land & Plots for sale | <span>9548</span>
+                    </label>
+                  </div>
+
+                  <!-- commercial-rent -->
+                  <div class="form__group">
+                    <input
+                      type="checkbox"
+                      id="commercial-rent"
+                      value="commercial-rent"
+                    />
+                    <label for="commercial-rent"
+                      >Commercial Property for Rent | <span>9548</span>
+                    </label>
+                  </div>
+
+                  <!-- commercial-sale -->
+                  <div class="form__group">
+                    <input
+                      type="checkbox"
+                      id="commercial-sale"
+                      value="commercial-sale"
+                    />
+                    <label for="commercial-sale"
+                      >Commercial Property for sale | <span>9548</span>
+                    </label>
+                  </div>
+
+                  <!-- event-centers -->
+                  <div class="form__group">
+                    <input
+                      type="checkbox"
+                      id="event-centers"
+                      value="event-centers"
+                    />
+                    <label for="event-centers"
+                      >Event Centres, Venues & Worksta | <span>9548</span>
+                    </label>
+                  </div>
+
+                  <!-- short-let -->
+                  <div class="form__group">
+                    <input type="checkbox" id="short-let" value="short-let" />
+                    <label for="short-let"
+                      >Short Let Property | <span>9548</span>
+                    </label>
+                  </div>
+
+                  <!-- land-plots-sale-2 -->
+                  <div class="form__group">
+                    <input
+                      type="checkbox"
+                      id="land-plots-sale-2"
+                      value="land-plots-sale-2"
+                    />
+                    <label for="land-plots-sale-2"
+                      >Land & Plots for sale | <span>9548</span>
+                    </label>
+                  </div>
+
+                  <!-- commercial-rent-2 -->
+                  <div class="form__group">
+                    <input
+                      type="checkbox"
+                      id="commercial-rent-2"
+                      value="commercial-rent-2"
+                    />
+                    <label for="commercial-rent-2"
+                      >Commercial Property for Rent | <span>9548</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- price -->
+              <div class="form__groups--wrapper">
+                <h3>price range</h3>
+
+                <div class="form__groups">
+                  <!-- under-13k -->
+                  <div class="form__group">
+                    <input type="checkbox" id="under-13k" value="under-13k" />
+                    <label for="under-13k"
+                      >Under 13 K • <span>2183 ads</span></label
+                    >
+                  </div>
+
+                  <!-- 13k-160k -->
+                  <div class="form__group">
+                    <input type="checkbox" id="13k-160k" value="13k-160k" />
+                    <label for="13k-160k"
+                      >13-160K • <span>2183 ads</span>
+                    </label>
+                  </div>
+
+                  <!-- 160K-6M -->
+                  <div class="form__group">
+                    <input type="checkbox" id="160k-6m" value="160k-6m" />
+                    <label for="160k-6m"
+                      >160K-6M • <span>2183 ads</span>
+                    </label>
+                  </div>
+
+                  <!-- 6m-55m -->
+                  <div class="form__group">
+                    <input type="checkbox" id="6m-55m" value="6m-55m" />
+                    <label for="6m-55m">6M-55M • <span>2183 ads</span> </label>
+                  </div>
+
+                  <!-- 6m-55m-2 -->
+                  <div class="form__group">
+                    <input type="checkbox" id="6m-55m-2" value="6m-55m-2" />
+                    <label for="6m-55m-2"
+                      >6M-55M • <span>2183 ads</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <div
+              class="mx-[20px] image__container bg-[url(../images/hero-image.jpg)] bg-center bg-cover rounded-[24px] md:[grid-area:imgCon] md:mx-0 min-h-[435px]"
+            >
+              <div
+                class="hero__content--wrapper flex flex-col items-center gap-[40px] text-center"
+              >
+                <div class="hero__heading mt-[32px] md:mt-[60px]">
+                  <h1 class="text-hFluid">Find the house you want easily</h1>
+                  <p>Buy, sell, rent or lease on just one platform</p>
+                </div>
+
+                <label
+                  for="search"
+                  class="hidden md:flex items-center bg-[#F8F8F8] p-[13px_24px] shadow-[0px_4px_10px_0px_#7C7C7C45;] rounded-[10px]"
+                >
+                  <input
+                    type="text"
+                    placeholder="Search..."
+                    class="outline-none"
+                  />
+                  <span
+                    ><a href=""
+                      ><img src="src/images/svg-search-icon.svg" alt="" /></a
+                  ></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="cards__section">
         <div class="container mx-auto px-[20px] py-[38px] md: py-[42px]">
