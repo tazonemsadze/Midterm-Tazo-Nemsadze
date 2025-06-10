@@ -91,15 +91,30 @@
 }
 
 @layer form {
-  .form__group {
-    @apply flex flex-col gap-[13px];
+  .form__groups--wrapper {
+    @apply flex flex-col gap-[7px];
   }
   .form__groups {
     @apply flex flex-col gap-[10px];
   }
+  .form__group {
+    @apply text-[13px] flex items-center gap-[12px];
+  }
+  .form__groups input {
+    @apply accent-[#29B24E] outline-[#29B24E];
+  }
 }
 
 @layer card {
+  .el__absolute--vip {
+    @apply absolute top-0 p-[12px];
+  }
+  .absolute__vip--content {
+    @apply text-white bg-[#29B24E] px-[11px] py-[6px] rounded-[15px];
+  }
+  .el__absolute--icon {
+    @apply w-[40px] h-[40px] bg-[#FFFFFF] shadow-[-2px_4px_20px_0px_#6D6D6D40] rounded-full flex items-center justify-center absolute bottom-0  right-0 translate-y-1/2;
+  }
 }
 
 @layer footer {
